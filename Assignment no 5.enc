@@ -208,3 +208,11 @@
  "nbformat": 4,
  "nbformat_minor": 2
 }
+
+
+def listofItems(*v):
+  for i in v:
+    print(i)
+
+print("Items :\n")
+listofItems("Fruits","Vegetables","Milk", "Chicken ")
